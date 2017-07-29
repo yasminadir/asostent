@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Asostent",
+    "description": "A valuable extension for all Asos lovers",
+    "version": "1.0",
+    // browser_action means that this extension is going to be a button that's going to be available at the Chrome toolbar
+    // and that's how we are going to activate this
+    "browser_action": {
+        "default_icon": "icon.png", // the icon is supposed to be 19X19 pixels
+        "default_popup": "popup.html" // this is the html page that is going to be shown when someone clicks this browser action
+    }
+}
